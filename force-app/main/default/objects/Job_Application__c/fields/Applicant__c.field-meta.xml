@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applicant__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Applicant(Contact) can be related to multiple job applications. Its a not a master as a Job Position sometimes may not have any applicants</description>
+    <externalId>false</externalId>
+    <label>Applicant</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Job Applications</relationshipLabel>
+    <relationshipName>Job_Applications</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
